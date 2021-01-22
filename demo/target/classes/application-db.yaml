@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/todo?createIfdatabaseNotExists=true
+    username: root
+    password: 123456
+    tomcat:
+      validation-query: 1
+    initialization-mode: always
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+#  -- insert into users(email,password,roles) values ('admin','admin123','ADMIN');

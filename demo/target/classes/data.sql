@@ -1,0 +1,1 @@
+insert into users(email,password,roles,id_organization) values ('admin','admin123','ADMIN',0);

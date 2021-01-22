@@ -1,0 +1,5 @@
+application:
+  jwt:
+    secretKey: AzerbaycanAzerbaycanAzerbaycanQarabagBizimdirBizimOlacaqShushaBizimdir
+    tokenPrefix: Bearer
+    tokenExpirationAfterDays: 10
