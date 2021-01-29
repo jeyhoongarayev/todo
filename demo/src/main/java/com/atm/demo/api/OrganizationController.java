@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/api/v1/organization")
 public class OrganizationController {
 
-    private OrganizationServices organizationServices;
+    private final OrganizationServices organizationServices;
 
     @GetMapping
     public List<Organization> get(){
