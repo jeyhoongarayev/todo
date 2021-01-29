@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("api/v1/task")
 public class TaskController {
 
-    private TaskServices taskServices;
+    private final TaskServices taskServices;
 
     @GetMapping("/{idOrg}")
     public List<Task> get(@PathVariable int idOrg){
